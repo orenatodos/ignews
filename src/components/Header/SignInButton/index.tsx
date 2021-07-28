@@ -10,7 +10,7 @@ const SignInButton = () => {
     <S.Wrapper type="button" isLogged={isLogged}>
       <FaGithub size={20} />
       { isLogged ? 'Renato Silva' : 'Sign in with GitHub' }
-      <FiX color="#737380" />
+      { isLogged && <FiX color="#737380" /> }
     </S.Wrapper>
   )
 }
