@@ -1,5 +1,7 @@
-export default function Home() {
+import Home from 'templates/Home'
+
+export default function Index () {
   return (
-    <h1>Ignews</h1>
+    <Home />
   )
 }
