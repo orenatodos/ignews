@@ -21,6 +21,7 @@ module.exports = {
     '@typescript-eslint'
   ],
   rules: {
+    camelcase: 'off',
     'react/react-in-jsx-scope': 'off'
   }
 }
