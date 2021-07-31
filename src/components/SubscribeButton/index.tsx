@@ -9,8 +9,9 @@ const SubscribeButton = () => {
   const [session] = useSession()
 
   const handleSubscribe = useCallback(async () => {
-    if (session) {
+    if (!session) {
       signIn('github')
+      return
     }
 
     try {
