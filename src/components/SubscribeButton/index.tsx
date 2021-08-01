@@ -25,7 +25,7 @@ const SubscribeButton = () => {
     } catch (err) {
       alert(err.message)
     }
-  }, [])
+  }, [session])
 
   return (
     <S.Wrapper type="button" onClick={handleSubscribe}>
