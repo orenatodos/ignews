@@ -39,6 +39,7 @@ export const MenuLink = styled.a<MenuLinkProps>`
     position: relative;
     padding: 0 0.8rem;
     color: var(--gray-300);
+    cursor: pointer;
     transition: color 0.2s;
 
     &:hover {
